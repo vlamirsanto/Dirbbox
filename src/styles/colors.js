@@ -1,4 +1,7 @@
 export default {
+  primary: '#22215B',
+  secundary: '#7B7F9E',
+
   white: '#ffffff',
   blue: '#567DF4',
   blueTransparent: 'rgba(86, 125, 244, 0.1)',

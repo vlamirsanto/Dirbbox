@@ -17,7 +17,11 @@ const Main = () => (
     <StatusBar barStyle="dark-content" />
 
     <View style={styles.content}>
-      <Text style={styles.text}>Dirbbox</Text>
+      <Text style={styles.title}>Dirbbox</Text>
+      <Text style={styles.text}>
+        Best cloud storage platform for all business and individuals to manage
+        there data Join For Free.
+      </Text>
 
       <View style={styles.wrapper}>
         <Button
@@ -28,6 +32,7 @@ const Main = () => (
           onPress={() => {}}
         />
         <Button
+          icon="arrow-forward"
           backgroundColor={colors.blue}
           color={colors.white}
           title="Login"

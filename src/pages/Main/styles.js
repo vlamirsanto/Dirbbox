@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {metrics} from '~/styles';
+import {general, metrics, colors, fonts} from '~/styles';
 
 const styles = StyleSheet.create({
   container: {
@@ -9,22 +9,30 @@ const styles = StyleSheet.create({
     resizeMode: 'contain',
     width: '100%',
     height: 550,
-    top: 0,
+    top: -20,
     position: 'absolute',
   },
   content: {
     flex: 1,
-    paddingHorizontal: metrics.basePadding,
+    paddingTop: metrics.basePadding * 3,
+    justifyContent: 'center',
+    paddingHorizontal: metrics.basePadding * 2,
+  },
+  title: {
+    color: colors.primary,
+    fontSize: fonts.biggest,
+    fontWeight: 'bold',
+    marginBottom: metrics.baseMargin,
+  },
+  text: {
+    color: colors.secundary,
+    fontSize: fonts.medium,
+    lineHeight: fonts.regular + 10,
   },
   wrapper: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-  },
-  text: {
-    color: '#000000',
-    fontSize: 30,
-    fontWeight: 'bold',
-    textAlign: 'center',
+    marginVertical: metrics.baseMargin * 4,
   },
 });
 

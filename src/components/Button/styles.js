@@ -5,17 +5,16 @@ const styles = StyleSheet.create({
   container: {
     ...general.alignCenter,
     flexDirection: 'row',
-    width: '45%',
-    height: 50,
+    width: '47%',
+    height: 60,
     borderRadius: 10,
   },
   icon: {
     marginRight: metrics.baseMargin,
-    fontSize: fonts.biggest,
+    fontSize: fonts.big,
   },
   button: {
-    fontSize: fonts.big,
-    // fontFamily: fonts.primary,
+    fontSize: fonts.regular,
   },
 });
 
