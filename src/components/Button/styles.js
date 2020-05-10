@@ -5,9 +5,10 @@ const styles = StyleSheet.create({
   container: {
     ...general.alignCenter,
     flexDirection: 'row',
-    width: '47%',
+    flex: 1,
     height: 60,
     borderRadius: 10,
+    marginHorizontal: metrics.baseMargin,
   },
   icon: {
     marginRight: metrics.baseMargin,
