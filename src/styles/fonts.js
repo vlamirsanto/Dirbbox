@@ -5,6 +5,6 @@ export default {
   regular: 20,
   medium: 18,
   small: 14,
-  // tiny: 12,
+  tiny: 10,
   // tinier: 10,
 };

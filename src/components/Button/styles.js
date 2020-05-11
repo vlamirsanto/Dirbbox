@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     flex: 1,
     height: 60,
-    borderRadius: 10,
+    borderRadius: metrics.baseRadius,
     marginHorizontal: metrics.baseMargin,
   },
   icon: {

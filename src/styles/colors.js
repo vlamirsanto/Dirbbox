@@ -2,9 +2,16 @@ export default {
   primary: '#22215B',
   secundary: '#7B7F9E',
 
+  light: '#EEF2FE',
   white: '#ffffff',
   blue: '#567DF4',
   blueTransparent: 'rgba(86, 125, 244, 0.1)',
+  yellow: '#FFB110',
+  yellowTransparent: '#FFFBEC',
+  red: '#AC4040',
+  redTransparent: '#FEEEEE',
+  green: '#23B0B0',
+  greenTransparent: '#F0FFFF',
 
   // light: '#d1d1d1',
   // lighten: '#ededed',

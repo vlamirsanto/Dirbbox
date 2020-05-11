@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {StyleSheet, Platform} from 'react-native';
 import {general, metrics, colors, fonts} from '~/styles';
 
 const styles = StyleSheet.create({
@@ -6,10 +6,13 @@ const styles = StyleSheet.create({
     ...general.container,
   },
   background: {
-    resizeMode: 'contain',
+    // resizeMode: 'contain',
     width: '100%',
-    height: 550,
-    top: -20,
+    height: Platform.select({
+      ios: 500,
+      android: 350,
+    }),
+    // top: -20,
     position: 'absolute',
   },
   content: {
